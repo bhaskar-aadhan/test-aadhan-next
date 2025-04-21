@@ -24,7 +24,10 @@ export function Welcome({ message }: { message: string }) {
             <p className="leading-6 text-gray-700 dark:text-gray-200 text-center">
               What&apos;s next?
             </p>
-            <ul>
+            <video autoPlay muted loop>
+              <source src="https://static.indusapps.in/assets/videos/hero-video.mp4" type="video/mp4" />
+            </video>
+            {/* <ul>
               {resources.map(({ href, text, icon }) => (
                 <li key={href}>
                   <a
@@ -39,7 +42,7 @@ export function Welcome({ message }: { message: string }) {
                 </li>
               ))}
               <li className="self-stretch p-3 leading-normal">{message}</li>
-            </ul>
+            </ul> */}
           </nav>
         </div>
       </div>
