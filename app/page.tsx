@@ -3,11 +3,9 @@ import Link from "next/link";
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
-      <p>Hello World! This is the Home page</p>
-      <p>
-        Visit the <Link href="/about">About</Link> page.
-      </p>
+      <video autoPlay muted loop>
+        <source src="https://static.indusapps.in/assets/videos/hero-video.mp4" type="video/mp4" />
+      </video>
     </div>
   );
 };
